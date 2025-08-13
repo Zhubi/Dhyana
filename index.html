@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SchulteGrid 隐私政策</title>
+  <meta name="description" content="SchulteGrid 隐私政策与数据说明" />
+  <style>
+    :root{
+      --bg:#0f1115;--card:#151823;--text:#e8eef8;--muted:#9fb0c9;--accent:#6aa3ff;--ok:#45c27c;--bad:#ff6b6b;--border:#222739
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji",sans-serif;line-height:1.7}
+    .container{max-width:900px;margin:0 auto;padding:40px 20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px}
+    h1{font-size:28px;line-height:1.3;margin:0 0 16px}
+    h2{font-size:20px;margin:28px 0 12px}
+    h3{font-size:16px;margin:22px 0 10px;color:var(--muted)}
+    p{margin:10px 0}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid var(--border);color:var(--muted)}
+    .list{padding-left:18px}
+    .list li{margin:6px 0}
+    .table{width:100%;border-collapse:collapse;background:transparent;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .table th,.table td{padding:12px;border-bottom:1px solid var(--border);vertical-align:top}
+    .table th{background:#161a26;text-align:left;color:#c9d6ee}
+    .ok{color:var(--ok)}
+    .bad{color:var(--bad)}
+    .footer{margin-top:24px;font-size:13px;color:var(--muted)}
+    .topmeta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+    .code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:#0b0d12;border:1px solid var(--border);padding:0 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="topmeta">
+        <span class="badge">最后更新：2025-08-13</span>
+        <span class="badge">适用平台：iOS 17 及以上</span>
+        <span class="badge">应用：SchulteGrid</span>
+      </div>
+      <h1>SchulteGrid 隐私政策</h1>
+      <p class="muted">本政策说明我们如何在 SchulteGrid（下称“本应用”）中处理与保护您的数据。我们以“只收集提供功能所必需的数据”为原则进行设计。</p>
+
+      <h2 id="summary">一、概要</h2>
+      <ul class="list">
+        <li><b>不收集可识别个人身份信息</b>（PII），如姓名、邮箱、电话号码等。</li>
+        <li><b>无广告与第三方追踪</b>，不嵌入广告或广告追踪 SDK。</li>
+        <li><b>训练记录与统计仅保存在您的设备上</b>，用于本地功能与可视化。</li>
+        <li><b>内购订阅通过 Apple 进行</b>，我们无法接触您的支付信息。</li>
+        <li><b>可随时删除数据</b>：在应用内清除（如提供该入口）或卸载应用。</li>
+      </ul>
+
+      <h2 id="data-we-collect">二、我们收集或处理的数据</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>类别</th>
+            <th>示例</th>
+            <th>用途</th>
+            <th>是否与您关联</th>
+            <th>是否对外共享</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>本地训练数据</td>
+            <td>训练历史、得分走势、点击节奏、反应时、热力图等</td>
+            <td>在设备上生成统计与可视化，帮助自我训练与复盘</td>
+            <td class="ok">否（仅存于本机）</td>
+            <td class="ok">否</td>
+          </tr>
+          <tr>
+            <td>购买状态</td>
+            <td>订阅有效性、方案类型（周/月/年/家庭共享）</td>
+            <td>解锁专业版功能、权益校验</td>
+            <td class="ok">否（通过 StoreKit 校验）</td>
+            <td class="ok">否（支付由 Apple 处理）</td>
+          </tr>
+          <tr>
+            <td>诊断信息（可选，由 Apple 统筹）</td>
+            <td>崩溃日志、性能数据（仅当您在系统设置中选择共享）</td>
+            <td>提升稳定性与性能</td>
+            <td>可能由 Apple 匿名化后汇总</td>
+            <td class="ok">否（我们不向第三方出售/出借）</td>
+          </tr>
+          <tr>
+            <td>通知相关（如有）</td>
+            <td>设备推送令牌（仅用于发送必要通知，不用于营销追踪）</td>
+            <td>向设备发送提醒（如开启）</td>
+            <td class="ok">否（不与身份绑定）</td>
+            <td class="ok">否</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="muted">说明：本应用不要求注册账户，不采集联系人、位置、照片、麦克风、通讯录等敏感信息。分享训练卡片时，内容在本地生成，是否分享由您自行通过系统分享面板决定。</p>
+
+      <h2 id="how-we-use">三、我们如何使用数据</h2>
+      <ul class="list">
+        <li>在设备上计算训练统计、可视化（如趋势图、热力图、节奏图）。</li>
+        <li>校验订阅与解锁专业版功能（包含家庭共享）。</li>
+        <li>改进稳定性（当您同意与 Apple 共享诊断数据时）。</li>
+      </ul>
+
+      <h2 id="storage">四、数据存储与保留</h2>
+      <ul class="list">
+        <li>训练与历史数据保存在<b>您的设备本地</b>。</li>
+        <li>我们不在自有服务器上存储您的个人数据。</li>
+        <li>删除方式：在应用设置中清除数据（如提供该入口），或卸载应用即删除本地数据。</li>
+      </ul>
+
+      <h2 id="sharing">五、数据共享与第三方</h2>
+      <ul class="list">
+        <li>我们<b>不向任何第三方出售、出租或交易</b>您的数据。</li>
+        <li>支付与订阅由 Apple 的 <span class="code">App Store / StoreKit</span> 处理；我们无法访问您的支付卡信息。</li>
+        <li>我们不集成第三方广告与追踪 SDK。</li>
+      </ul>
+
+      <h2 id="children">六、未成年人</h2>
+      <p>本应用面向普通用户且不以未成年人为主要受众。我们不会有意收集未成年人的个人信息。如您认为我们在不知情的情况下收集了相关信息，请通过下方方式联系我们以便处理。</p>
+
+      <h2 id="your-rights">七、您的权利</h2>
+      <ul class="list">
+        <li>访问与更正：您可在应用内查看并管理训练数据。</li>
+        <li>删除：可在应用内清除数据（如提供该入口）或通过卸载应用删除本地数据。</li>
+        <li>撤回权限：您可在系统设置中关闭通知等权限。</li>
+      </ul>
+
+      <h2 id="subscription">八、订阅与试用</h2>
+      <ul class="list">
+        <li>试用期结束后，订阅将按所选周期自动续订；您可随时在系统的“设置 → Apple ID → 订阅”中取消。</li>
+        <li>家庭共享（如适用）由 Apple 管理，符合条件的家庭成员可共享订阅权益。</li>
+      </ul>
+
+      <h2 id="changes">九、本政策的变更</h2>
+      <p>我们可能会根据功能或法规变化更新本政策。变更将发布于本页面并注明更新日期。重大变更时，我们会在应用内或通过其他合理方式提示您查看。</p>
+
+      <h2 id="contact">十、联系我们</h2>
+      <p>如有任何与隐私相关的问题或请求，请与我们联系：</p>
+      <ul class="list">
+        <li>电子邮件：<a href="mailto:support@yourdomain.com">support@yourdomain.com</a>（请将此邮箱替换为您的实际联系邮箱）</li>
+        <li>技术支持页：<a href="https://yourdomain.com/support" target="_blank" rel="noopener">https://yourdomain.com/support</a>（或使用 GitHub Pages 链接）</li>
+        <li>项目支持（可选）：<a href="https://github.com/yourname/SchulteGrid/issues" target="_blank" rel="noopener">GitHub Issues</a></li>
+      </ul>
+
+      <div class="footer">
+        <p>控制者：开发者（个人）— Li Chengzhou（请根据 App Store Connect 卖方名称替换）</p>
+        <p>若您将本页面托管于 GitHub Pages，请确保链接为 HTTPS，并将上方邮箱、支持链接替换为您的实际信息。</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
